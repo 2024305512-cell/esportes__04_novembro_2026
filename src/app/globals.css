@@ -32,6 +32,16 @@ h3 {
   margin-top: 50px;
 }
 
+button {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.remover {
+  color: rgb(202,41,41);
+  cursor: pointer;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

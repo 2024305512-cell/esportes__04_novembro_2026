@@ -1,5 +1,6 @@
 'use client'
 
+import FormAdicionarEsporte from "@/components/FormAdicionarEsporte";
 import Lista from "@/components/Lista";
 import { useState } from "react";
 
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <div>
       <Lista titulo='Lista de Esportes' elementos={esportes}/>
+      <FormAdicionarEsporte adicionaEsporte={adicionaEsporte}/>
     </div>
   );
 }
