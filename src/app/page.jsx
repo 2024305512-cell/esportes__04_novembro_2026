@@ -3,14 +3,14 @@
 import { useState } from "react";
 
 export default function Home() {
-  const [espotes, setEsportes] = useState([])
+  const [esportes, setEsportes] = useState([])
   function adicionaEsporte(novoEsporte) {
     if (novoEsporte) {
       setEsportes(...setEsportes, novoEsporte)
     }
   }
   function removeEsporte(esporteApagar) {
-    setEsportes()
+    setEsportes(esportes.filter((esporteApagar, i) => i != indice))
   }
   return (
     <div>
