@@ -7,7 +7,7 @@ export default function Home() {
   const [esportes, setEsportes] = useState(['Futebol', 'Natação'])
   function adicionaEsporte(novoEsporte) {
     if (novoEsporte) {
-      setEsportes(...esportes, novoEsporte)
+      setEsportes([...esportes, novoEsporte])
     }
   }
   function removeEsporte(indice) {
