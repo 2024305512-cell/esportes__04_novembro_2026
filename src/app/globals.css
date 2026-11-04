@@ -1,14 +1,14 @@
 :root {
-  --background: #171717;
-  --foreground: #ffffff;
+  --background: #ededed;
+  --foreground: #0a0a0a;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-} */
+}
 
 html {
   height: 100%;
@@ -23,16 +23,17 @@ body {
 
 ul {
   list-style: none;
-
-
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0px;
 }
 
 h3 {
-  
+  margin-top: 50px;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-} */
+}
